@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Average+Sans&family=Blinker:wght@100;200;300;400;600;700;800;900&family=Electrolize&family=Goldman&family=Gugi&family=Kadwa:wght@400;700&family=Lato:wght@100;300;400;700;900&family=Mukta+Malar:wght@300;400;800&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.wholesidebar{
+    float: right;
+    padding-right: 20px;
+    position: sticky;
+    top: 80px;
+}
+.wholesearchinputcontainer{
+    width: fit-content;
+    width: 270px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.secondinputcontainer{
+    width: 100%;
+}
+.Tabname{
+    padding-bottom: 8px;
+    font-family: poppins;
+    font-weight: 500;
+}
+.miniinputsection{
+    display: flex;
+    align-items: center;
+    border: 1px solid orangered;
+    background-color: orangered;
+    width: 89%;
+    height: 35px;
+    border-radius: 6px;
+    padding: 4px;
+}
+.SearchInput{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-family: poppins;
+    width: 100%;
+}
+.Searchlogo{
+    padding: 10px;
+    color:rgb(255, 255, 255) ;
+    font-weight: bolder;
+}
+.Searchbutton{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(197, 197, 197);
+ 
+}
+.wholesearchinputcontainer{
+    float: right;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 80px;
+}
+
+@media screen and (max-width: 800px){
+    .wholesidebar{
+        margin-left: -300%;
+        background-color: aqua;
+        float: left;
+        display: none;
+    }
+}

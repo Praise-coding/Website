@@ -1,0 +1,40 @@
+.wholeExplorecontainer{
+    width: fit-content;
+    width: 270px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.Tabname{
+    font-family: poppins;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.Explorewritup{
+    display: inline-flex;
+    word-wrap: break-word;
+    white-space: wrap;
+}
+.explorecontainer{
+    margin-inline-end: 10px;
+}
+.linkinexplore{
+    background-color: rgb(238, 238, 238);
+    margin-inline-end: 10px;
+    word-wrap: break-word;
+    white-space: wrap;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top:   8px;
+    padding-bottom: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: poppins;
+}

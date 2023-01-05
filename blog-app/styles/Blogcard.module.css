@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukata:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600&display=swap');
+#wholeBlogCardSection{
+    margin-left: 20px;
+    margin-right:280px;
+    display: flex;
+    justify-content: center;
+
+}
+.secondBlogCard{
+    display: grid;    
+
+    width: 100%;
+    grid-gap: 20px;
+    padding-right: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+}
+.thirdblogcard{
+    width: 100%;
+
+background-color: transparent;
+    height: fit-content;
+    transition: all 300ms;
+}
+
+.Wholeblogcardlink{
+    text-decoration: none;    
+    all: unset;margin-top: 20px;
+    cursor:pointer;background-color: white; 
+       display: block;
+       transition: all 300ms;
+}
+.Wholeblogcardlink:active{
+    background-color: rgb(228, 228, 228);
+    transition: all 300ms;
+}
+.Wholeblogcardlink:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 300ms;
+}
+.image{
+    width: 100%;
+    height: 200px;
+    transition: all 300ms;
+    background-color: black;
+}
+.image:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+.writeup{
+    padding-left: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space:wrap ;
+    padding-right: 20px;
+}
+.Imagecontainer{
+    position: relative;
+    overflow: hidden;
+
+}
+.readmore2{
+    border-bottom:2px solid ;
+    width: fit-content;
+
+    font-family:pt sans ;
+    display: flex;
+    align-items: center;
+}
+.tag{
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 35px;
+    bottom:-10px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(13, 0, 71, 0.9);
+    color: white;
+    font-family: kanit;
+
+}
+
+.readmore{
+    background-color: transparent;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-family: poppins;
+
+}
+.WholeAurthorAndDate{
+    display: none;
+    align-items: center;
+    font-family: pt sans;
+    font-size: 12px;
+    margin-top: 18px;
+    margin-bottom: 13px;
+}
+.containerforimageandaurthoranddate{
+    display: flex;
+    align-items:center;
+    
+
+}
+.authorpic{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: baseline;
+    margin-right: 10px;
+}
+.aurthornameandate{
+    display: flex;
+
+    align-items: flex-end;
+}
+
+.button{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.heart{
+    background-color: orangered;
+    padding: 17px;
+    border-radius: 100%;
+    display: none;
+    color: white;
+}
+.iconcontainer{
+    width: 17%;
+    justify-content: space-between;
+    display: flex;
+    display: none;
+}
+#Icon{
+ font-size: 20px;
+ color: orangered;
+
+}
+.line{
+    background-color: rgb(0, 0, 0);
+    width: 1px;
+}
+
+.body{
+    white-space: wrap;
+    word-break: break-all;
+    font-size:14px ;
+    padding-top: 10px;
+   
+font-family: kanit;
+    color: #888888;
+    
+    
+}
+.title{
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 0px;
+    color: #000000cc;
+    margin-top: 10px;
+    font-family:pt sans;
+}
+.divforload{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    align-items: center;
+    background-color: #ECF0F1;
+}
+.Error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    background-color: white;
+    top: 0px;
+    width: 100%;
+    font-size:30px;
+    font-family: kanit;
+    text-align: center;
+    z-index: 100;
+    color: orangered;
+
+}
+.readmoreanddate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    font-family: pt sans;
+    font-size: 13px;
+}
+    .load{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);
+        /*change these sizes to fit into your project*/
+        width:100px;
+        height:100px;
+       
+      }
+      .load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
+      
+      .load :first-child{background:#19A68C;animation-delay:-1.5s}
+      .load :nth-child(2){background:#F63D3A;animation-delay:-1s}
+      .load :nth-child(3){background:#FDA543;animation-delay:-0.5s}
+      .load :last-child{background:#193B48}
+      
+      @keyframes spin{
+        0%,100%{transform:translate(0)}
+        25%{transform:translate(160%)}
+        50%{transform:translate(160%, 160%)}
+        75%{transform:translate(0, 160%)}
+      }
+
+@media screen and (max-width : 800px){
+    #wholeBlogCardSection{
+
+        margin-left: 0px;
+        margin-right:0px;
+        display: flex;
+        border-radius: 5px;
+        margin-block-end: 0px;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    .image{
+        height: 250px;
+    }
+    .secondBlogCard{
+     width: 89%;
+     display: block;
+     padding: 0px;
+     margin: 0px;
+     grid-template-columns: unset;
+    }
+    .thirdblogcard{
+width: 100%;
+
+
+
+    }
+    .date{
+        
+    }
+    .title{
+        font-size: 21px;
+        margin-top:0px ;
+        color: #000000cc;
+        font-family:pt sans;
+    }
+    .body{
+        font-size:14px ;
+        padding-top: 10px;
+       
+font-family: kanit;
+        color: #888888;
+        
+    }
+    .writeup{
+        padding: 15px 30px 15px 30px;
+    }
+}
+@media screen and (max-width: 500px){
+    .image{
+        height: 50vw;
+    }
+    .title{
+        font-size: 4.2vw;
+        margin-top: 0.3vw;
+    }
+    .body{
+        font-size: 2.8vw;
+    }
+    .tag{
+        position: absolute;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        height: 7.4vw;
+        top: 0px;
+        font-size: 3.2vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(13, 0, 71, 0.9);
+        color: white;
+        font-family: kanit;
+    }
+    .readmoreanddate{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 8vw;
+        padding-bottom: 4vw;
+    }
+    .date{
+        font-size: 2.6vw;
+    }
+    .readmore2{
+        border-bottom:2px solid ;
+        width: fit-content;
+        font-family:pt sans ;
+        display: flex;
+        align-items: center;
+        font-size: 3.1vw;
+    }
+    .writeup{
+        padding-left: 6vw;
+        word-wrap: break-word;
+        word-break: break-all;
+        white-space:wrap ;
+        padding-right: 6vw;
+    }
+    .Error{
+        font-size: 6.5vw;
+    }
+}
+.err{
+    text-align: center;
+    font-family: kanit;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+  }
